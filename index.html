@@ -6,9 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Demo</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    
+    <div class="wrapper">
+        <div class="score-board">
+            <div class="streak">Streak <span>:</span> <div class="streak-value"></div></div>
+            <div class="level">Level <span>:</span> <div class="level-value"></div></div>
+            <div class="timer">Time Left <span>:</span> <div class="timer-value"></div></div>
+            <div class="restart">Restart</div>
+        </div>
+        <div class="gameContainer">
+            
+            <div class="ai-menu-wrapper">
+                <div class="ai-value value-one"></div>
+                <div class="plusSign"><div class="plusSign1"><div class="plusSign2"></div></div></div>
+                <div class="ai-value value-two"></div>
+                <div class="equalSign"><div class="equalSign1"></div><div class="equalSign2"></div></div>
+                <div class="ai-value value-three"></div>
+
+            </div>
+                
+            <div class="generated-number-wrapper">
+                <div class="random-number random-number-one"></div>
+                <div class="random-number random-number-two"></div>
+                <div class="random-number random-number-three"></div>
+                <div class="random-number random-number-four"></div>
+                <div class="random-number random-number-five"></div>
+                <div class="random-number random-number-six"></div>
+                <div class="random-number random-number-seven"></div>
+
+            </div>
+
+            <div class="user-input-wrapper">
+                <div class="user-value user-value-one"></div>
+                <div class="plusSign"><div class="plusSign1"><div class="plusSign2"></div></div></div>
+                <div class="user-value user-value-two"></div>
+
+            </div>
+        </div>
+    </div>
     <script src="game-demo.js"></script>
 </body>
 </html>
