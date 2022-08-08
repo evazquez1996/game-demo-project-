@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    
+}
+/* top layer/ score board */
+.score-board{
+    background-color: rgb(150, 143, 255);
+    height: 100px;
+    width: 1280px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    border: 2px solid black;
+    border-bottom: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: monospace, sans-serif;
+}
+.score-board span{
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+.streak{
+    height: 75px;
+    width: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.streak-value{
+    height: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border: 2px solid black;
+    border-right: none;
+}
+
+.level{
+    height: 75px;
+    width: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.level-value{
+    height: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border: 2px solid black;
+    border-right: none;
+}
+
+.timer{
+    height: 75px;
+    width: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+}
+.timer-value{
+    height: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border: 2px solid black;
+    border-right: none;
+}
+
+.restart{
+    height: 75px;
+    width: 150px;
+    font-size: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid black;
+
+}
+/***End of score board layer ***/
+
+/*Inner Container */
+.gameContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1280px;
+    height: 720px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+}
+
+.ai-menu-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+.ai-value{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    width: 200px;
+    margin: 0 75px;
+    height: 100px;
+    background-color: rgb(211, 87, 228);
+    border: 5px solid rgb(106, 47, 114);
+
+}
+
+
+.user-input-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+.user-value{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    margin: 0 100px;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(233, 132, 132);
+    border: 5px solid rgb(163, 83, 83);
+}
+
+
+.generated-number-wrapper{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 90%;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.random-number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    width: 75px;
+    height: 50px;
+    background-color: rgb(38, 130, 134);
+    border: 5px solid rgb(18, 57, 59);
+
+}
+
+
+
+/* operators */
+.plusSign1{
+    width: 5px;
+    height: 80px;
+    background-color: black;
+}
+.plusSign2{
+    width: 5px;
+    height: 80px;
+    background-color: black;
+    transform: rotate(90deg);
+}
+
+.equalSign{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50px;
+}
+.equalSign1{
+    width: 80px;
+    height: 5px;
+    background-color: black;
+}
+.equalSign2{
+    width: 80px;
+    height: 5px;
+    background-color: black;
+    
+}
+
+/*end of operators */
